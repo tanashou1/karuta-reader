@@ -4,7 +4,7 @@
   "description": "小学生向けの、サーバー不要のかるた読み上げアプリです。",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/test-speech.mjs && node scripts/test-worker.mjs"
+    "test": "node scripts/test-settings.mjs && node scripts/test-speech.mjs && node scripts/test-worker.mjs"
   },
   "keywords": [],
   "author": "",
