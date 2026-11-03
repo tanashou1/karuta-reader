@@ -1,0 +1,20 @@
+{
+  "name": "karuta",
+  "version": "1.0.0",
+  "description": "小学生向けの、サーバー不要のかるた読み上げアプリです。",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test-speech.mjs && node scripts/test-worker.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "dependencies": {
+    "aquestalk.js": "1.0.7",
+    "kanji2koe-openjtalk": "0.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "private": true
+}
